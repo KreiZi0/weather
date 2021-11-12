@@ -27,5 +27,5 @@ function drawWeather(data){
 
 	document.querySelector('#description').innerHTML = description;
 	document.querySelector('#temp').innerHTML = celcius + "&deg;";
-	document.querySelector("location").innerHTML = data.name;
+	document.querySelector("#location").innerHTML = data.name;
 }
